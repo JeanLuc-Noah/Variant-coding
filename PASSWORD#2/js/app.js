@@ -5,7 +5,6 @@ inputPassword.addEventListener("input",function(){
     
     //Si le champs contient quelques
     if(this.value.length > 0){
-        console.log(this.value);
         //on ajout la classe visible a l'icon
         _oei.classList.add('visible')
 
